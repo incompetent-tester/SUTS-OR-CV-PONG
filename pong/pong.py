@@ -47,7 +47,6 @@ try:
                 # Logics                     #
                 ##############################
                 # Pong Bound logic
-                a= cv_lib.cv_get_boundary(processed_video)
                 x_bounds, y_bounds = cv_lib.cv_get_boundary(processed_video)
                 
                 
