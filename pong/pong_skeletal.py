@@ -54,20 +54,20 @@ try:
                 
                 # Reflect ball
                 if(cv_lib.hit_pong_deflector(ball_x, ball_y, deflector_x, deflector_y) and not ball_deflected):
-                    .....................
+                    ball_dir_y = ......................
                     ball_deflected = True
                 
                 # If ball touches side, change dir
                 if ball_x > x_bounds or ball_x < 0 :
                     ### FILL IN : I would like it to hit the wall and deflect accordingly
-                    .....................
+                    ball_dir_x = .....................
                 
                 # If ball touches bottom, end
                 if ball_y > y_bounds:
                    ball_away = False 
                    ball_deflected = False
                    ## FILL IN : IF BALL TOUCHES BOTTOM, DEDUCT 1 point
-                   ......................
+                   points = ......................
                
                 # If ball touches top, add point, end
                 if ball_y < 0:
@@ -75,7 +75,7 @@ try:
                     ball_deflected = False
                     ## IF THE BALL TOUCHES THE TOP, ADD 1 Point
                     ## FILL IN HERE
-                    ......................
+                    points = ......................
             
                 ##########################
                 # Graphic                #
